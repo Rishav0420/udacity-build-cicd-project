@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 env:
-  AWS_REGION: ${{ env.AWS_REGION }}
+  AWS_REGION: us-east-1
   ECR_REPOSITORY: frontend
   CLUSTER_NAME: cluster
 
